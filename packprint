@@ -1,0 +1,3 @@
+#!/bin/sh
+# usage: packprint <how far back>
+expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | tail -n $1
